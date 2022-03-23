@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
+    <modelVersion>4.0.0</modelVersion>
+    
+    <parent>
+        <groupId>org.koix.sample</groupId>
+        <artifactId>oauth2-prototype</artifactId>
+        <version>0.0.1</version>
+    </parent>
+    
+    <artifactId>oauth2-password-jwt</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>oauth2-password-jwt-auth</module>
+        <module>oauth2-password-jwt-res</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-jwt</artifactId>
+            <version>1.1.1.RELEASE</version>
+        </dependency>
+    </dependencies>
+    
+</project>
