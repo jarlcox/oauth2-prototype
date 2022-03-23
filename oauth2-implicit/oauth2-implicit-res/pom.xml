@@ -4,15 +4,11 @@
     
     <parent>
         <groupId>org.koix.sample</groupId>
-        <artifactId>oauth2-prototype</artifactId>
+        <artifactId>oauth2-implicit</artifactId>
         <version>0.0.1</version>
     </parent>
     
-    <artifactId>oauth2-implicit</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>oauth2-implicit-auth</module>
-        <module>oauth2-implicit-res</module>
-    </modules>
+    <artifactId>oauth2-implicit-res</artifactId>
+    <packaging>jar</packaging>
     
 </project>
