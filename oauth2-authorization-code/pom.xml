@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
+    <modelVersion>4.0.0</modelVersion>
+    
+    <parent>
+        <groupId>org.koix.sample</groupId>
+        <artifactId>oauth2-prototype</artifactId>
+        <version>0.0.1</version>
+    </parent>
+    
+    <artifactId>oauth2-authorization-code</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>oauth2-authorization-code-auth</module>
+        <module>oauth2-authorization-code-res</module>
+        <module>oauth2-authorization-code-web</module>
+    </modules>
+    
+</project>

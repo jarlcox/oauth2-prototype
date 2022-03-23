@@ -8,6 +8,8 @@
     <modules>
         <module>oauth2-client-credentials</module>
         <module>oauth2-password</module>
+        <module>oauth2-implicit</module>
+        <module>oauth2-authorization-code</module>
     </modules>
     <packaging>pom</packaging>
 
